@@ -1,0 +1,48 @@
+Index HTML for Website:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sunshine Diner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sunshine Diner</h1>
+      <i><h2>"Breakfast and Lunch for All"</h2></i>
+    </header>
+    <main>
+        <section class="specials">
+          <b><p class="section-title">The Specials</p></b>
+              <ul>
+                <li>Chicken and Waffles - $15.99</li>
+                <li>Biscuits and Gravy - $18.39</li>
+                <li>Steak and Eggs - $25.00</li>
+            </ul>
+            <img src="chicken-and-waffles.jpg" alt="Chicken and Waffles" class="right-img">
+        </section>
+        
+        <section class="breakfast">
+          <b><p class="section-title right-text">Breakfast</p></b>
+            <ul class="right-text">
+                <li>Pancakes - $9.99</li>
+                <li>Eggs and Bacon - $12.34</li>
+                <li>Avocado Toast - $8.50</li>
+            </ul>
+            <img src="pancakes.jpg" alt="Pancakes" class="left-img">
+        </section>
+
+        <section class="lunch">
+          <b><p class="section-title">Lunch</p></b>
+            <ul>
+                <li>Cheeseburger w/fries - $14.50</li>
+                <li>Hot Dog w/cheese - $13.99</li>
+                <li>Chicken Tenders w/small salad - $21.00</li>
+            </ul>
+            <img src="cheeseburger.jpg" alt="Cheeseburger" class="right-img">
+        </section>
+    </main>
+</body>
+</html>

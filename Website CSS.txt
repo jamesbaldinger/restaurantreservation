@@ -1,0 +1,66 @@
+CSS:
+
+body {
+    background-color: #FAD6A5; /* tan color */
+    font-family: Ariel, serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    color: red;
+    text-align: center;
+  	text-decoration: underline;
+    font-size: 50px;
+}
+
+header h2 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-title {
+    color: #FB8917; /*yellow color*/
+    margin: 20px 0;
+  	text-decoration: underline;
+  font-size: 18px;
+}
+
+.right-text {
+    text-align: right;
+    color: lightblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.right-text {
+    color: black; /* Ensures list items are readable */
+}
+
+img {
+    width: 50%; /* Adjust image size */
+    display: block;
+    margin: 20px 0;
+}
+
+.left-img {
+    float: left;
+    margin-right: 20px;
+}
+
+.right-img {
+    float: right;
+    margin-left: 20px;
+}
+
+.breakfast .section-title {
+    color: #FB8917;
+}
+
+.lunch .section-title {
+    color: #FB8917;
+}
